@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import pickle
 
 # Load saved model, scaler, and expected columns
 model = joblib.load("knn_heart_model.pkl")
